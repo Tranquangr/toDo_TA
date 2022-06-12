@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    left: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem!important;
+}
+
+.container{
+    max-width:120rem;
+    margin: 0 auto;
+}
+
+.container > .header {
+    font-size: 5.5rem;
+    font-weight:300;
+}
+
+.container .area_input_data  {
+    display:flex;
+    justify-content:space-between;
+    margin: 1rem 0;
+}
+
+.container .area_input_data .search{
+    width: 40%;
+}
+.container .area_input_data .search #input-search {
+    padding: 1rem 1.5rem ;
+    width: 60%;
+}
+
+.container .area_input_data .search #btn-search {
+    padding: 1rem 1.5rem ;
+    margin-left: -1rem;
+    background-color: #39c0ed;
+    color: white;
+    border-color: #39c0ed;
+    font-weight:400;
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+}
+
+.container .area_input_data .CRUD_data{
+    width: 60%;
+}
+
+.container .area_input_data .CRUD_data #btn_handle{
+    padding: 1rem 1.5rem ;
+    background-color: #39c0ed;
+    color: white;
+    border-color: #39c0ed;
+    font-weight:400;
+    border-radius: .3rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.container .area_input_data .CRUD_data .data{
+    display: none;
+}
+
+.container .area_input_data .CRUD_data #input-data {
+    padding: 1rem 1.5rem ;
+    width: 70%;
+}
+
+.container .area_input_data .CRUD_data .level {
+    padding: 1rem 1rem ;
+    margin-left: .5rem;
+}
+
+.container .area_input_data .CRUD_data #btn_add {
+    padding: 1rem 1.5rem ;
+    margin-left: 1rem;
+    background-color: #39c0ed;
+    color: white;
+    border-color: #39c0ed;
+    font-weight:400;
+    border-radius: .3rem;
+}
+
+.container .list_todo .header{
+    background-color: rgb(44, 214, 44);
+    padding: 1rem 1rem;
+    color: white;
+}
+.container .list_todo #list{
+    width: 100%;
+}
+.btn_medium{
+    color: white;
+    background-color: rgb(87, 224, 178);
+    outline:none;
+    border:none ;
+}
+.btn_high{
+    color: white;
+    background-color:rgb(236, 43, 43);
+    outline:none;
+    border:none ;
+}
+.btn_small{
+    color: white;
+    background-color:black;
+    outline:none;
+    border:none ;
+}
+
+.btn_design{
+    color: white;
+    border:none;
+    border-radius: 0.3rem;
+}
+
+.btn_edit{
+    background-color:orange
+}
+.btn_delete{
+    background-color:rgb(236, 43, 43);;
+}
+
+.table{
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.btn{
+    padding: 1rem 2rem !important;
+}
